@@ -1,6 +1,6 @@
 # ASOS Shop Client
 
-![nextjs-framer-shadcn-tailwind](/pubic/logos.jpg)
+![nextjs-framer-shadcn-tailwind](/static/logos.jpg)
 
 <a name="readme-top"></a>
 
