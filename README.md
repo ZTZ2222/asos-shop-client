@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ASOS Shop Client
+
+![nextjs-framer-shadcn-tailwind](/pubic/logos.jpg)
+
+<a name="readme-top"></a>
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#features">Features</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
+
+## About The Project
+
+This is the frontend application for ASOS Shop, a web platform designed to provide users with a seamless experience for browsing discounted products from ASOS.com. ASOS Shop aims to offer a curated selection of discounted items from various categories, including fashion, accessories, footwear, and more.
+ASOS Shop Client is the frontend component of ASOS Shop ([asos-shop-server](https://github.com/ZTZ2222/asos-shop-server)).
+
+### Built With
+
+[![Nextjs][nextjs.org]][nextjs-url]
+[![Tailwind][tailwindcss.com]][tailwind-url]
+[![Shadcn/ui][ui.shadcn.com]][shadcn-url]
+[![FramerMotion][framer.com]][framer-url]
+[![docker][hub.docker.com]][docker-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Features
+
+- Displays discounted products from ASOS.com
+- Interactive user interface
+- Responsive design
+- Smooth animations
+- Customizable Styles
+- Efficient Development Workflow
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
 
-First, run the development server:
+### Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/ZTZ2222/asos-shop-client.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate into the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd asos-shop-client
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Create a .env file in the project root directory and add the necessary environment variables. Here's an example:
 
-## Learn More
+```plaintext
+NEXT_PUBLIC_API_URL=https://example.com/api/
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Build and run the project with Docker Compose:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+docker compose up --build -d
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Deploy on Vercel
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[nextjs.org]: https://img.shields.io/badge/next-14.0.4-009485?style=for-the-badge&logo=nextdotjs&logoColor=white
+[nextjs-url]: https://nextjs.org/docs
+[tailwindcss.com]: https://img.shields.io/badge/tailwindcss-3.3.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
+[tailwind-url]: https://tailwindcss.com/docs
+[ui.shadcn.com]: https://img.shields.io/badge/shadcn/ui-0.8.0-ff1b1c?style=for-the-badge&logo=shadcnui&logoColor=white
+[shadcn-url]: https://ui.shadcn.com/docs
+[framer.com]: https://img.shields.io/badge/framer-11.0.17-2e6fce?style=for-the-badge&logo=framer&logoColor=white
+[framer-url]: https://www.framer.com/motion/
+[hub.docker.com]: https://img.shields.io/badge/docker-26.1.1-2094f3?style=for-the-badge&logo=docker&logoColor=white
+[docker-url]: https://docs.docker.com/
