@@ -88,7 +88,7 @@ docker compose up --build -d
 [tailwind-url]: https://tailwindcss.com/docs
 [ui.shadcn.com]: https://img.shields.io/badge/shadcn/ui-0.8.0-ff1b1c?style=for-the-badge&logo=shadcnui&logoColor=white
 [shadcn-url]: https://ui.shadcn.com/docs
-[framer.com]: https://img.shields.io/badge/framer-11.0.17-f4998d?style=for-the-badge&logo=framer&logoColor=white
+[framer.com]: https://img.shields.io/badge/framer-11.0.17-c42348?style=for-the-badge&logo=framer&logoColor=white
 [framer-url]: https://www.framer.com/motion/
 [hub.docker.com]: https://img.shields.io/badge/docker-26.1.1-2094f3?style=for-the-badge&logo=docker&logoColor=white
 [docker-url]: https://docs.docker.com/
